@@ -28,10 +28,10 @@ export class EditComponent implements OnInit {
       this.dataEntry = res;
     })
   }
-
+ 
   onSubmit(){
     console.log(this.dataEntry);
-    
+
     this.dataService.editEntry(this.dataEntry)
     .subscribe(response => {
       console.log(response);

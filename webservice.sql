@@ -37,8 +37,8 @@ CREATE TABLE `data` (
   `recoveries` int(11) NOT NULL,
   `recoveryRate` float NOT NULL,
   `fatalityRate` float NOT NULL,
-  `continent` varchar(8) NOT NULL,
-  `classification` varchar(8) NOT NULL,
+  `continent` varchar(12) NOT NULL,
+  `classification` varchar(12) NOT NULL,
   `date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
