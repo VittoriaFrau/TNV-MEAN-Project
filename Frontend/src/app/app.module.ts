@@ -14,6 +14,10 @@ import { EditComponent } from './routes/edit/edit.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { UpperCasePipe } from './pipes/upper-case.pipe';
+import { LoadingScreenComponent } from './components/loading-screen/loading-screen.component';
+import { FilterComponent } from './routes/filter/filter.component';
+import { CountryPipe } from './pipes/country.pipe';
+import { WelcomeComponent } from './routes/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { UpperCasePipe } from './pipes/upper-case.pipe';
     EditComponent,
     HeaderComponent,
     FooterComponent,
-    UpperCasePipe
+    UpperCasePipe,
+    LoadingScreenComponent,
+    FilterComponent,
+    CountryPipe,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
