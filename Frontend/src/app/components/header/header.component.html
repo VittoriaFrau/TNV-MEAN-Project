@@ -8,10 +8,19 @@
   <div class="collapse navbar-collapse" id="navbarsExample02">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" [routerLink]="['../']">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" [routerLink]="['/dashboard']">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" [routerLink]='["/add"]'>New</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]='["/filter"]'>Filter by country</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]='["/filterByTwo"]'>Filter by continent and classification</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]='["/sort"]'>Sort</a>
       </li>
     </ul>
   </div>

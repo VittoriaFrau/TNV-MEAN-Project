@@ -18,6 +18,9 @@ import { LoadingScreenComponent } from './components/loading-screen/loading-scre
 import { FilterComponent } from './routes/filter/filter.component';
 import { CountryPipe } from './pipes/country.pipe';
 import { WelcomeComponent } from './routes/welcome/welcome.component';
+import { FilterByTwoComponent } from './routes/filter-by-two/filter-by-two.component';
+import { ContinentclassificationPipe } from './pipes/continentclassification.pipe';
+import { SortComponent } from './routes/sort/sort.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { WelcomeComponent } from './routes/welcome/welcome.component';
     LoadingScreenComponent,
     FilterComponent,
     CountryPipe,
-    WelcomeComponent
+    WelcomeComponent,
+    FilterByTwoComponent,
+    ContinentclassificationPipe,
+    SortComponent
   ],
   imports: [
     BrowserModule,
