@@ -5,8 +5,15 @@
           <input type="text" class="form-control" id="country" required [(ngModel)]="country">
         </div>
   </div> 
-  <table ng-controller="myCtrl2"> 
-    <tr *ngFor="let entry of covidData | country : country">
+  <table class="table" ng-controller="myCtrl2" *ngIf="country" > 
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Country</th>
+        <th scope="col">Cases</th>
+        <th scope="col">Date</th>
+      </tr>
+    </thead>
+    <tr class="pointer" *ngFor="let entry of covidData | country : country">
       <td>{{entry.country}}</td>
       <td>{{entry.cases}}</td>
       <td>{{entry.date | date}}</td>

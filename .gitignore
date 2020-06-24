@@ -1687,7 +1687,3 @@ node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg
 node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf
 node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff
 node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2
-Frontend/src/app/routes/sort/sort.component.css
-Frontend/src/app/routes/sort/sort.component.html
-Frontend/src/app/routes/sort/sort.component.spec.ts
-Frontend/src/app/routes/sort/sort.component.ts
