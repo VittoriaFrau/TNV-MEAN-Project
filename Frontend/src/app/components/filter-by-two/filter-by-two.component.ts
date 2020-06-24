@@ -9,9 +9,10 @@ import { NgForm } from '@angular/forms';
   templateUrl: './filter-by-two.component.html',
   styleUrls: ['./filter-by-two.component.css']
 })
+
 export class FilterByTwoComponent implements OnInit {
 
-  constructor(private dataService: DataService, private router : Router) { }
+  constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
     this.getEntries()

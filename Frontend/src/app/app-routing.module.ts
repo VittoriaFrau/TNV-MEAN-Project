@@ -4,10 +4,9 @@ import { DashboardComponent } from './routes/dashboard/dashboard.component'
 import { AddComponent } from './routes/add/add.component';
 import { DetailsComponent } from './routes/details/details.component';
 import { EditComponent } from './routes/edit/edit.component';
-import { FilterComponent } from './routes/filter/filter.component';
 import { WelcomeComponent } from './routes/welcome/welcome.component';
-import { FilterByTwoComponent } from './routes/filter-by-two/filter-by-two.component';
 import { SortComponent } from './routes/sort/sort.component';
+import { FilterByComponent } from './routes/filter-by/filter-by.component';
 
 
 const routes: Routes = [
@@ -17,8 +16,7 @@ const routes: Routes = [
   { path: "add", component : AddComponent },
   { path: "details/:id", component : DetailsComponent },
   { path: "edit/:id", component: EditComponent },
-  { path: "filter", component: FilterComponent},
-  { path: "filterByTwo", component: FilterByTwoComponent},
+  { path: "filterBy", component: FilterByComponent},
   { path: "sort", component: SortComponent}
 ];
 

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
 import { CovidData } from '../../models/data.model';
 @Component({
-  selector: 'app-filter',
-  templateUrl: './filter.component.html',
-  styleUrls: ['./filter.component.css']
+  selector: 'app-filter-by-country',
+  templateUrl: './filter-by-country.component.html',
+  styleUrls: ['./filter-by-country.component.css']
 })
-export class FilterComponent implements OnInit {
+export class FilterByCountryComponent implements OnInit {
 
   constructor(private dataService:DataService) { }
 
@@ -22,6 +22,4 @@ export class FilterComponent implements OnInit {
   ngOnInit() {
     this.getEntries()
   }
-
-
 }

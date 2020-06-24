@@ -15,12 +15,13 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { UpperCasePipe } from './pipes/upper-case.pipe';
 import { LoadingScreenComponent } from './components/loading-screen/loading-screen.component';
-import { FilterComponent } from './routes/filter/filter.component';
 import { CountryPipe } from './pipes/country.pipe';
 import { WelcomeComponent } from './routes/welcome/welcome.component';
-import { FilterByTwoComponent } from './routes/filter-by-two/filter-by-two.component';
+import { FilterByTwoComponent } from './components/filter-by-two/filter-by-two.component';
 import { ContinentclassificationPipe } from './pipes/continentclassification.pipe';
 import { SortComponent } from './routes/sort/sort.component';
+import { FilterByComponent } from './routes/filter-by/filter-by.component';
+import { FilterByCountryComponent } from './components/filter-by-country/filter-by-country.component';
 
 @NgModule({
   declarations: [
@@ -33,12 +34,13 @@ import { SortComponent } from './routes/sort/sort.component';
     FooterComponent,
     UpperCasePipe,
     LoadingScreenComponent,
-    FilterComponent,
     CountryPipe,
     WelcomeComponent,
-    FilterByTwoComponent,
     ContinentclassificationPipe,
-    SortComponent
+    SortComponent,
+    FilterByComponent,
+    FilterByTwoComponent,
+    FilterByCountryComponent
   ],
   imports: [
     BrowserModule,
