@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-//import { FilterByTwoComponent } from '../filter-by-two/filter-by-two.component';
-//import { FilterComponent } from '../filter/filter.component';
 
 @Component({
   selector: 'app-filter-by',

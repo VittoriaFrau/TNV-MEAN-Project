@@ -7,6 +7,7 @@ import { EditComponent } from './routes/edit/edit.component';
 import { WelcomeComponent } from './routes/welcome/welcome.component';
 import { SortComponent } from './routes/sort/sort.component';
 import { FilterByComponent } from './routes/filter-by/filter-by.component';
+import { TestApiComponent } from './routes/test-api/test-api.component';
 
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: "details/:id", component : DetailsComponent },
   { path: "edit/:id", component: EditComponent },
   { path: "filterBy", component: FilterByComponent},
-  { path: "sort", component: SortComponent}
+  { path: "sort", component: SortComponent},
+  { path: "testApi", component: TestApiComponent}
 ];
 
 @NgModule({

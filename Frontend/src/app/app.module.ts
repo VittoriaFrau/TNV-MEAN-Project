@@ -22,6 +22,7 @@ import { ContinentclassificationPipe } from './pipes/continentclassification.pip
 import { SortComponent } from './routes/sort/sort.component';
 import { FilterByComponent } from './routes/filter-by/filter-by.component';
 import { FilterByCountryComponent } from './components/filter-by-country/filter-by-country.component';
+import { TestApiComponent } from './routes/test-api/test-api.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { FilterByCountryComponent } from './components/filter-by-country/filter-
     SortComponent,
     FilterByComponent,
     FilterByTwoComponent,
-    FilterByCountryComponent
+    FilterByCountryComponent,
+    TestApiComponent
   ],
   imports: [
     BrowserModule,
